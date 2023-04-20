@@ -19,5 +19,5 @@ double y_b = Convert.ToInt32(str_y_b);
 Console.WriteLine("Введите z второй точки:");
 string str_z_b = Console.ReadLine();
 double z_b = Convert.ToInt32(str_z_b);
-double distance_3D = Math.Sqrt(((x_b-x_a)*(x_b-x_a))+((y_b-y_a)*(y_b-y_a))+((z_b-z_a)*(z_b-z_a)));
+double distance_3D = Math.Sqrt(((x_b-x_a)*(x_b-x_a))+((y_b-y_a)*(y_b-y_a))+((z_b-z_a)*(z_b-z_a))); //Ну или через ^2
 Console.WriteLine(distance_3D);
